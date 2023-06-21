@@ -1,0 +1,61 @@
+.first-div,
+.second-div,
+.third-div,
+.fourth-div {
+  background: red;
+  width: 23%;
+  float: left;
+  margin-right: 10px;
+}
+
+span {
+  background: yellowgreen;
+}
+.special-span {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+}
+/* Default property will be static, If you want top move an element 
+without adding margin then you can set it to position relative. */
+
+/* Relative */
+/* .div-position {
+  background: lightcoral;
+  top: 108px;
+  right: 0;
+  bottom: 0;
+  left: 5px;
+  position: relative;
+} */
+
+/* Absolute */
+.div-position {
+  background: lightcoral;
+  position: relative;
+  height: 135px;
+}
+.div-position p{
+  width: 22%;
+  height: auto;
+  background: yellowgreen;
+  margin: 0;
+}
+.div-position p:nth-child(1){
+  position: absolute;
+  left: 0;
+}
+.div-position p:nth-child(2){
+  position: absolute;
+  right: 0;
+}
+.div-position p:nth-child(3){
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.div-position p:nth-child(4){
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

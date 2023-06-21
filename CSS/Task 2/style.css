@@ -1,0 +1,31 @@
+
+header{
+    text-align: center;
+    background-color: aqua;
+    color: brown;
+}
+
+nav{
+    font-weight: bold;
+}
+
+img{
+    width:40%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display:inline-block;
+}
+
+form{
+    margin: 2rem;
+    background-color: antiquewhite;
+    color:black;
+    font-weight: 500;
+    display:inline-block;
+}
+
+.table-1{
+
+    display:inline-block;
+    background-color: rgba(100, 229, 209, 0.441);
+}

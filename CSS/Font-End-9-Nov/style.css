@@ -1,0 +1,96 @@
+/* Exmaple for position absoulte with z-index property */
+/* .parent-element {
+  background: lightblue;
+  position: relative;
+  border: 1px solid black;
+  height: 125px;
+  width: 100%;
+} */
+/* .first-child {
+  background: lightseagreen;
+  width: 25%;
+  border: 1px solid black;
+  position: absolute;
+  left: 90px;
+  top: 0;
+  z-index: 1;
+}
+.second-child {
+  background: red;
+  width: 25%;
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.third-child {
+  background-color: lightslategray;
+  width: 25%;
+  border: 1px solid black;
+  position: absolute;
+  top: 20px;
+  left: 85px;
+  z-index: 1;
+} */
+
+/* Example of position fixed property */
+
+/* .parent-element {
+  background: lightblue;
+  position: relative;
+  border: 1px solid black;
+  height: 400px;
+  width: 100%;
+}
+.second-child{
+  background: red;
+  position: fixed;
+  top: 0;
+  border: 1px solid black;
+  right: 0;
+  height: 20px;
+} */
+
+/* Position Sticky Property */
+
+/* .parent-element {
+  background: lightblue;
+  position: relative;
+  border: 1px solid black;
+  height: 400px;
+  width: 100%;
+}
+.second-child{
+  background: red;
+  position: sticky;
+  top: 0;
+  border: 1px solid black;
+  right: 0;
+  height: 20px;
+} */
+
+.form-parent {
+  width: 250px;
+  position: relative;
+  border: 1px solid black;
+  height: 150px;
+}
+.second-layer {
+  width: 166px;
+  background: lightgrey;
+  position: absolute;
+  z-index: 0;
+  height: 121px;
+  border: 1px solid black;
+  left: 5px;
+  top: 15px;
+}
+form {
+  background: bisque;
+  position: absolute;
+  border: 1px solid black;
+  width: 200px;
+  left: 18px;
+  top: 25px;
+}

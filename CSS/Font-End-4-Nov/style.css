@@ -1,0 +1,47 @@
+div {
+  border: 3px solid black;
+
+  /* All at once */
+  /* margin: 10px; */
+
+  /* For each side */
+  /* margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px; */
+
+  /* Pixels are static */
+  /* width: 200px; */
+
+  /* Responsive */
+  /* width: 25%; */
+
+  /* Adjust an element with its content */
+  /* width: max-content;
+  width: min-content;
+  width: fit-content; */
+
+  /* width: 25%; */
+
+  /* max-width property restrict an element's width, 
+  Which will not go beyond that even if we set some 
+  value above it. But we can reduce below the restricted values. */
+
+  /* max-width: 150px;
+  width: 2000px; 
+  width: 120px;
+  */
+
+  /* min-width: 200px;
+  width: 170px; */
+}
+
+/* div p {
+  width: inherit;
+} */
+
+/* Width property will not get implemented because it is inline element. */
+span {
+  background-color: red;
+  width: 100%;
+}

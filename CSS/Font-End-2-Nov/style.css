@@ -1,0 +1,47 @@
+/* video{
+    width: 25%;
+}
+.elements-class{
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+} */
+/* div{
+    background-color: red;
+} */
+.div_element-one {
+  background-color: teal;
+  color: white;
+  font-size: 12px;
+  font-family: cursive;
+}
+#unique {
+  background-color: red;
+}
+.parent-child p:nth-child(1) {
+  background: black;
+  color: white;
+}
+.parent-child p:nth-child(2) {
+  color: white;
+  font-family: fantasy;
+}
+.parent-child p:nth-child(3) {
+  font-family: fantasy;
+  background-color: yellowgreen;
+  color: teal;
+}
+/* .parent-child p:last-child{
+    color: white;
+    font-family: fantasy;
+} */
+/* .parent-child p:nth-child(2){
+    color: white;
+    font-family: fantasy;
+} */
+/* p{
+    background-color: yellowgreen;
+    font-size: 20px;
+} */
+.parent-child div p {
+    background-color: steelblue !important;
+}

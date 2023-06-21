@@ -1,0 +1,38 @@
+/* .pixels{
+  width: 200px;
+  border: 1px solid black;
+}
+.percentage{
+  width: 25%;
+  border: 1px solid red;
+}
+.parent-em{
+  font-size: 10px;
+}
+.em{
+  font-size: 12px;
+  width: 10em;
+  padding: 1em;
+  border: 1px solid blue;
+}
+Rem will always consider value from root element i.e html
+html{
+  font-size: 10px;
+  1rem = font size of this element
+}
+.parent-rem{
+  font-size: 15px;
+}
+.rem{
+  width: 20rem;
+  border: 1px solid black;
+} */
+
+.pusedo-element::before{
+  /* content: "END HERE!"; */
+  /* color: red; */
+
+  /* content: url("./src/logout_FILL0_wght400_GRAD0_opsz48.svg"); */
+  content: "\25ba";
+  /* content: "\f1ea"; */
+}

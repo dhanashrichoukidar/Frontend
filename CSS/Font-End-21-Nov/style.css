@@ -1,0 +1,59 @@
+.pusedo-element::after {
+  /* content: "@copyright";
+  color: red;
+  font-weight: 800; */
+  /* Image size should be less in resolution */
+  /* content: url("./src/logout_FILL0_wght400_GRAD0_opsz48.svg"); */
+  /* content: "\21B9"; */
+  /* content: "\f1ea"; */
+}
+/* .pusedo-element::first-line{
+  color: red;
+  font-weight: 700;
+  font-style: italic;
+} */
+/* .pusedo-element::first-letter{
+  color: red;
+  font: bold;
+  font-size: 20px;
+}
+.pusedo-element span{
+  color: red;
+  font-weight: 800;
+  font-style: italic;
+} */
+
+/* div{
+  width: 25%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+div:hover{
+  width: 50%;
+  border: 2px solid red;
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  color: lightseagreen;
+} */
+
+/*For Unvisited link*/
+.link:link {
+  color: brown;
+  text-decoration: none;
+}
+/*Visited*/
+.link:visited{
+  color: darkorange;
+}
+/*On mouse hover on element*/
+.link:hover{
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+}
+.link:active{
+  color: blue;
+}
+

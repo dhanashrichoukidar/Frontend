@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+</head>
+<body>
+    <label for="id">Id</label>
+    <input type="text" id="id">
+    <label for="input">Name</label>
+    <input type="text" id="input">
+
+    <button class="submit" >Submit</button>
+
+    <table >
+        <thead>
+            <tr>
+                <th value="id">ID</th>
+                <th value="name">Name</th> 
+                     
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>
+
+    <script>
+const btn = document.querySelector(".submit")
+btn.addEventListener('click', (e) => {
+    const id = document.getElementById("id").value;
+    const input = document.getElementById("input").value;
+   
+    const data = document.getElementById("data");
+    console.log(input)
+if (id !=="" && input !== ""){
+data.innerHTML+=`
+<tr>
+    <td>${id}</td>
+    <td>${input}</td>
+    </tr>
+`
+document.getElementById("id").value = ""
+document.getElementById("input").value = ""
+}
+
+
+
+})
+
+    </script>
+    
+</body>
+</html>

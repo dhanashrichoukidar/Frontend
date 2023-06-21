@@ -1,0 +1,9 @@
+/* .table .thead-dark th {
+  color: #fff;
+  background-color: purple;
+  border-color: #454d55;
+} */
+.alert-custom {
+  background: lightsalmon;
+  color: white;
+}

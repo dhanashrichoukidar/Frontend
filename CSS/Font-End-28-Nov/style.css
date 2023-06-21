@@ -1,0 +1,69 @@
+/* div{
+  border: 1px solid black;
+  width: 25%;
+  float: left;
+  margin: 0 1rem;
+} */
+
+/* flex */
+/* .flex-parent{
+  border: 1px solid black;
+  display: flex;
+  height: 5rem;
+} */
+
+
+/* Inline-flex */
+/* .flex-parent {
+  border: 1px solid black;
+  display: inline-flex;
+  height: 5rem;
+} */
+
+/* Flex-direction */
+/* .flex-parent{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+} */
+
+
+/* Flex-wrap, nowrap, wrap reverse - Overflow:auto */
+/* .flex-parent{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  overflow: auto;
+} */
+
+/* justify content property */
+/* .flex-parent{
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+/* align-items */
+/* .flex-parent{
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-end;
+  height: 10rem;
+} */
+
+
+.flex-parent{
+  border: 1px solid black;
+  display: flex;
+}
+
+.flex-child {
+  border: 1px solid lightcoral;
+  padding: 1rem;
+  margin: 0.5rem;
+}

@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.login-section {
+  background-image: url("https://images.pexels.com/photos/4321802/pexels-photo-4321802.jpeg");
+  height: 98vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  width: 40rem;
+  height: 25rem;
+  border: 3px solid bisque;
+  position: absolute;
+  top: 32rem;
+  right: 0.5rem;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  color: #907562;
+}
+form {
+  position: absolute;
+  top: 32rem;
+  right: 14rem;
+  width: 17rem;
+  height: 22rem;
+  border-radius: 15px;
+  padding: 10px;
+  border: 3px solid bisque;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+}
+form label,
+form input {
+  margin: 20px 0;
+  display: block;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 20px;
+  color: #907562;
+}
+form input[type="submit"] {
+  width: 100%;
+  margin-top: 55px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+form input {
+  padding: 10px;
+}
+.overlay h1 {
+  position: absolute;
+  left: 15px;
+  top: 0;
+}
+.overlay p:nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 65px;
+  font-size: 18px;
+}
+.overlay p:nth-child(3) {
+  position: absolute;
+  left: 130px;
+  top: 120px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1800px) {
+  /* .login-section {
+    height: 98vh;
+    background-image: url("https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  } */
+  .overlay {
+    width: 40rem;
+    height: 25rem;
+    top: 31.5rem;
+    right: 0rem;
+  }
+  form {
+    width: 18rem;
+    height: 22rem;
+    top: 31.5rem;
+    right: 12.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* .login-section {
+    background-image: url("https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  } */
+  .overlay {
+    right: -3.5rem;
+  }
+  form {
+    right: 8.5rem;
+  }
+}
+
+/* Multiple break point combination which sets min to max width restriction for 
+break points */
+
+/* @media screen and (min-width: 1200px) {
+  .login-section {
+    background-image: url("https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  }
+} */
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+  .login-section {
+    background-image: url("https://images.pexels.com/photos/145685/pexels-photo-145685.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  }
+}
+
+.container {
+  width: 100%;
+  overflow: auto;
+}
+.container div {
+  width: 23.3rem;
+  height: auto;
+  border: 1px solid black;
+  float: left;
+  margin: 0 1.5rem;
+}
+.flex-container {
+  /* display: inline-flex; */
+  display: flex;
+  border: 1px solid black;
+  height: 5rem;
+}
+.flex-child{
+  border: 1px solid red;
+  padding: 1rem;
+}

@@ -1,0 +1,9 @@
+.bd-highlight-parent {
+  background-color: lightgray;
+  border: 1px solid gray;
+  height: 10rem;
+}
+.bd-highlight-item, .row div{
+  background-color: lightcoral;
+  border: 1px solid gray;
+}

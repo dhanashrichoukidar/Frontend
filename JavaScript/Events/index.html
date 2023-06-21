@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world!!</h1>
+    <div>
+        <select id="countrySelect">
+            <option id="op1" value="india">India</option>
+            <option id="op2" value="usa">USA</option>
+        </select>
+    </div>
+    <div id="main"></div>
+
+    <script>
+        const countrySelect = document.getElementById("countrySelect");
+        const main = document.getElementById("main");
+
+        countrySelect.addEventListener("change", (e) => {
+          console.log(e.target.value)
+            const selectedValue = countrySelect.value;
+
+            if (selectedValue === "india") {
+                main.innerHTML = `
+                    <select>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                    </select>
+                `;
+            } else if (selectedValue === "usa") {
+                main.innerHTML = `
+                    <select>
+                        <option>new york</option>
+                        <option>boston</option>
+                    </select>
+                `;
+            } else {
+                main.innerHTML = ""; // Clear the content if no valid selection
+            }
+        });
+    </script>
+</body>
+</html>
